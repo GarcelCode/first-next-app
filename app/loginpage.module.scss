@@ -1,0 +1,19 @@
+.MainContainer {
+   @apply flex bg-slate-900 w-screen h-screen justify-center items-center;
+}
+
+.Form {
+    @apply flex flex-col items-center gap-4 bg-slate-600 p-7 rounded-md;
+}
+
+.FormInput {
+    @apply p-3 rounded-md text-center bg-slate-200 
+}
+
+.SubmitBtn {
+    &:hover {
+        @apply bg-green-600 text-green-200
+    }
+    @apply bg-green-400 py-3 rounded-xl w-full font-bold duration-300 mt-6
+    
+}
